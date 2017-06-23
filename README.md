@@ -27,6 +27,9 @@ App URL : http://52.197.2.209/
 	sudo apt-get upgrade
 
 2. Configure the time zone 'sudo dpkg-reconfigure tzdata'
+3. Disable root login
+'sudo nano /etc/ssh/sshd_config'
+Change 'PasswordAuthentication' to 'no'
 
 ### Give user 'grader' access
 
