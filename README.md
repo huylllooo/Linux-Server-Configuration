@@ -1,10 +1,13 @@
 Linux Server Configuration
 ===============================
 Online server configuration for Item Catalog app.
+The code can be found ['here'](https://github.com/huylllooo/Item-Catalog)
 
 ## Server Address
 IP address : 52.197.2.209
+
 SSH port : 2200
+
 App URL : http://52.197.2.209/
 
 ## Software installed
