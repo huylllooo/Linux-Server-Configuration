@@ -40,6 +40,15 @@ $ usermod -aG sudo grader
 
 ### Set SSH keys for user 'grader'
 
+```bash
+$ mkdir /home/grader/.ssh
+$ chown grader:grader /home/grader/.ssh
+$ chmod 700 /home/grader/.ssh
+$ cp /home/ubuntu/.ssh/authorized_keys /home/grader/.ssh/
+$ chown grader:grader /home/grader/.ssh/authorized_keys
+$ chmod 644 /home/grader/.ssh/authorized_keys
+```
+
 ### Configure ports
 
 Change port to 2200 in 'sshd_config'. Then the restart SSH service:
